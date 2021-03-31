@@ -67,7 +67,7 @@ require 'json'
 
 #include_recipe 'build-essential::default'
 
-include_recipe 'java'
+#include_recipe 'java'
 
 kzookeeper "#{node['kzookeeper']['version']}" do
   user        node['kzookeeper']['user']
